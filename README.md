@@ -3,7 +3,7 @@ eip: <to be assigned>
 title: Non-Tradable Tokens for wallet KYC
 description: A standard interface for Soulbound Token using in wallet KYC.
 author: Louis Chan <blocklab123@gmail.com>
-discussions-to: <URL>
+discussions-to: https://ethereum-magicians.org/t/eip-draft-non-tradable-tokens-for-wallet-kyc/9926
 status: Draft
 type: Standards Track
 category: ERC
@@ -143,7 +143,7 @@ The ideal case will be implementing strictly decentralized, permissionless, and 
 OKEY is supposed to store in a separate wallet address. If the address bound with Blue Check is compromised, users can use the OKEY to revoke their Blue Check, and the revocation will burn both OKEY and Blue Check.
 
 ### Revoke by the issuer
-We need to consider the case that users lose both their Blue Check wallet and OKEY wallet. Then users will be required to re-do the verification process and trigger the hard revoke by the issuer. After confirming the document's authenticity and generating the personal hash to revoke the Blue Check using "function X"
+We need to consider the case that users lose both their Blue Check wallet and OKEY wallet. Then users will be required to re-do the verification process and trigger the hard revoke by the issuer. After confirming the document's authenticity and generating the personal hash to revoke the Blue Check using "hardRevoke"
 
 
 ## Backwards Compatibility
